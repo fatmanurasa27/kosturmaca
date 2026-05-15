@@ -602,7 +602,7 @@ def main():
                 state = "PLAYING"
                 bg_index = next_bg_index
                 player.y = HEIGHT - 50
-                monster.base_speed += 0.5
+                monster.base_speed += 0.15
                 target_pos = None
 
         elif state == "GAME_OVER":
